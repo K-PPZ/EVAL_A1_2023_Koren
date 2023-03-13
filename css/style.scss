@@ -73,6 +73,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     #abonnements {
         width: 100%;
@@ -114,6 +115,29 @@ main {
             & td {
                 padding: 3% 1%;
                 font-size: 80%;
+            }
+        }
+    }
+
+    #plats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        // width: 100%;
+        // height: 100%;
+
+        & article {
+            display: flex;
+
+            & .imgs {
+                width: 90%;
+            }
+
+            & img {
+                border-radius: 10%;
+                width: 100%;
+                height: 80%;
             }
         }
     }
