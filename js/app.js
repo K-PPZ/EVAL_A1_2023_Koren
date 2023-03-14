@@ -5,9 +5,7 @@ let imgs = document.getElementsByClassName("imgs");
 for (let i = 1; i <= 5; i++) {
     plats.innerHTML += `
     <article>
-        <div class="imgs">
-            <img src="img/img-0${i}.jpg" alt="#">
-        </div>
+        <img src="img/img-0${i}.jpg" alt="#">
         
         <div class="desc">
             <h2>UN SUPER TITRE</h2>
